@@ -1,4 +1,6 @@
-Sub fontThemeImport()
+Sub fontThemeImport(control As IRibbonControl)
+'the subroutine needs to have the same name as that called by the custom ribbon xml
+'the typical proces sinvolves first making the .ppam, and then generting customUI.xml in the custom UI Editor on windows (with which you open the .ppam)
 
 Dim fileAccessGranted As Boolean
 Dim filePermissionCandidates
